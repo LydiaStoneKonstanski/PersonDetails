@@ -45,6 +45,7 @@ public class PersonHandlerTest {
 
         // : Then
         Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
 
 

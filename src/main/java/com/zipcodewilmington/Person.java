@@ -21,7 +21,10 @@ public class Person {
         return lastName;
     }
 
-    @Override // why is Override here??
+    @Override // why is Override here??  "@Override annotation
+    // informs the compiler that the element is meant to override an element
+    // declared in a superclass. Overriding methods will be discussed in
+    // Interfaces and Inheritance."
     public String toString() {
         return new StringBuilder()
                 .append("\nMy first name is " + firstName)
